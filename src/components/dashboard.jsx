@@ -46,7 +46,7 @@ const statusHandler = (e) => {
         </div>
 
         <Link
-          to="/"
+          to="/simpletodoapp"
           className={`flex gap-x-4 p-2 mt-7 text-gray-300 text-lg  items-center  cursor-pointer  hover:bg-light-cyan hover:bg-opacity-50 active:bg-light-cyan rounded`}
         >
           <img src={HomeLogo} alt="" />
