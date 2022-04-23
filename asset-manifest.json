@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/simpletodoapp/static/css/main.a2717522.css",
+    "main.js": "/simpletodoapp/static/js/main.9f2273b8.js",
+    "static/media/pencils.jpg": "/simpletodoapp/static/media/pencils.d9d7fae0c596dd592832.jpg",
+    "static/media/black_g.png": "/simpletodoapp/static/media/black_g.85e43386649aee438b56.png",
+    "static/media/school_card.jpg": "/simpletodoapp/static/media/school_card.47d365c8668fd0104ffd.jpg",
+    "static/media/food_card.jpg": "/simpletodoapp/static/media/food_card.f0088edab801c7b8e3e9.jpg",
+    "static/media/black_d.png": "/simpletodoapp/static/media/black_d.c6ea1b472256ec730609.png",
+    "static/media/black_n.png": "/simpletodoapp/static/media/black_n.5e2e67e80af9dd7b468f.png",
+    "static/media/black_a.png": "/simpletodoapp/static/media/black_a.4c98c77af9a23d44f929.png",
+    "static/media/gym_card.jpg": "/simpletodoapp/static/media/gym_card.a9ea7524afa65f662e6a.jpg",
+    "static/media/hygiene_card.jpg": "/simpletodoapp/static/media/hygiene_card.8dac14df7b23d21dec5b.jpg",
+    "static/media/work_card.jpg": "/simpletodoapp/static/media/work_card.9806352f59a6ce3d4265.jpg",
+    "static/media/black_e.png": "/simpletodoapp/static/media/black_e.e5b365eeffdf1bd87b4d.png",
+    "static/media/plus.gif": "/simpletodoapp/static/media/plus.8eb42e0d49c8f9a34877.gif",
+    "static/media/back.gif": "/simpletodoapp/static/media/back.49d5dc4627f341317501.gif",
+    "static/media/arrow-6.gif": "/simpletodoapp/static/media/arrow-6.889b2e18c7c3f24dc0bf.gif",
+    "static/media/logo.gif": "/simpletodoapp/static/media/logo.1bb485db9d8340c4fd55.gif",
+    "static/media/edit.gif": "/simpletodoapp/static/media/edit.4787c24630037fa58127.gif",
+    "static/media/delete.gif": "/simpletodoapp/static/media/delete.61e43f4c06f9d2b832f5.gif",
+    "index.html": "/simpletodoapp/index.html",
+    "main.a2717522.css.map": "/simpletodoapp/static/css/main.a2717522.css.map",
+    "main.9f2273b8.js.map": "/simpletodoapp/static/js/main.9f2273b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2717522.css",
+    "static/js/main.9f2273b8.js"
+  ]
+}
