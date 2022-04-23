@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
-    <div className='Navbar'>
+    <div className='Navbar animate-transitionIn'>
         <div className='h-screen bg-white'>
         <div className="navBarHolder fixed top-0 z-50 w-full h-24 bg-black shadow-very-light-cyan shadow-md">
             <img className={`absolute mt-5 ml-8`} src={Logo} alt="" />

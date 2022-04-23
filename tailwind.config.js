@@ -29,7 +29,31 @@ module.exports = {
         'pencils-img' : "url('/pencils.jpg')"
       }),
       animation: {
-        bounce: 'bounce 4s infinite'
+        bounce: 'bounce 4s infinite',
+        transitionIn: 'blink 0.75s',
+        slide: 'slide 0.75s'
+      },
+      keyframes:{
+        blink:{
+          '0%':{
+             opacity: 0,
+             transform: 'rotateX(-10deg)'
+          },
+          '100%':{
+            opacity : 1,
+            transform : 'rotateX(0)'
+          }
+        },
+        slide:{
+          '0%':{
+             opacity: 0,
+             transform: 'translateX(-100%)'
+          },
+          '100%':{
+            opacity : 1,
+            ransform: 'translateX(0)'
+          }
+        }
       },
       colors: {
         "dark-black" : "#383838",

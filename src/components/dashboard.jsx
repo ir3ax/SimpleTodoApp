@@ -19,7 +19,7 @@ const statusHandler = (e) => {
 }
 
   return (
-    <div className={`flex`}>
+    <div className={`flex animate-slide`}>
       <div
         className={`${
           open ? "w-72" : "w-24"
