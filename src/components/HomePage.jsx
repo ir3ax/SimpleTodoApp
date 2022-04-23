@@ -22,12 +22,12 @@ const HomePage = () => {
             <Link to="/dashboard" className='absolute top-6 right-8 p-2 border-2 rounded-md cursor-pointer text-md font-medium text-white hover:text-black hover:bg-light-cyan'>Wrote Now!</Link>
         </div>
         <div className="LettersHolder h-full bg-pencils-img bg-cover space-x-5 flex m-auto items-center justify-center text-white text-2xl shadow-black shadow-lg xs:space-x-2">
-            <img className='imgHolder w-52  drop-shadow-xl animate-bounce xl:w-40 lg:w-32 md:w-24 sm:w-20 xs:w-12' src={black_a} />
-            <img className='imgHolder w-48  drop-shadow-xl animate-bounce animation-delay-1000 xl:w-36 lg:w-28 md:w-20 sm:w-16 xs:w-12' src={black_g} />
-            <img className='imgHolder w-44  drop-shadow-xl animate-bounce xl:w-32 lg:w-24 md:w-16 sm:w-12 xs:w-10' src={black_e} />
-            <img className='imgHolder w-44  drop-shadow-xl animate-bounce animation-delay-1000 xl:w-32 lg:w-24 md:w-16 sm:w-12 xs:w-12' src={black_n}  />
-            <img className='imgHolder w-52  drop-shadow-xl animate-bounce xl:w-40 lg:w-32 md:w-24 sm:w-20 xs:w-12' src={black_d}  />
-            <img className='imgHolder w-44  drop-shadow-xl animate-bounce animation-delay-1000 xl:w-32 lg:w-24 md:w-16 sm:w-12 xs:w-12' src={black_a}  />
+            <img className='imgHolder w-52  drop-shadow-xl animate-bounce xl:w-40 lg:w-32 md:w-24 sm:w-20 xs:w-12' src={black_a} alt="A_BLACK"/>
+            <img className='imgHolder w-48  drop-shadow-xl animate-bounce animation-delay-1000 xl:w-36 lg:w-28 md:w-20 sm:w-16 xs:w-12' src={black_g} alt="G_BLACK"/>
+            <img className='imgHolder w-44  drop-shadow-xl animate-bounce xl:w-32 lg:w-24 md:w-16 sm:w-12 xs:w-10' src={black_e} alt="E_BLACK"/>
+            <img className='imgHolder w-44  drop-shadow-xl animate-bounce animation-delay-1000 xl:w-32 lg:w-24 md:w-16 sm:w-12 xs:w-12' src={black_n}  alt="N_BLACK"/>
+            <img className='imgHolder w-52  drop-shadow-xl animate-bounce xl:w-40 lg:w-32 md:w-24 sm:w-20 xs:w-12' src={black_d}  alt="D_BLACK"/>
+            <img className='imgHolder w-44  drop-shadow-xl animate-bounce animation-delay-1000 xl:w-32 lg:w-24 md:w-16 sm:w-12 xs:w-12' src={black_a}  alt="A_BLACK"/>
         </div>
         </div>
 

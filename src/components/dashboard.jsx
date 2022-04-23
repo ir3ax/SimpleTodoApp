@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import arrow from "../images/arrow-6.gif";
 import Logo from "../images/logo.gif";
 import HomeLogo from "../images/home2.png";

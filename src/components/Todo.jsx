@@ -24,13 +24,7 @@ const Todo = ({todos, completeTodo, removeTodo, updateTodo, setStatus, search, s
     }
 
  useEffect(() => {
-         filterHandler()
-        searchHandler()
-    },[todos,setStatus,search,filteredTodo]);
-
-
-
-  const filterHandler = () => {
+   const filterHandler = () => {
     switch (setStatus){
          case 'Category':
             setFilteredTodo(todos);
@@ -69,6 +63,11 @@ const searchHandler = () => {
       setResult(newCategoryList)
    }
 }
+         filterHandler()
+        searchHandler()
+    },[todos,setStatus,search,filteredTodo,searchKeyWord]);
+
+
 
 
 if(edit.id) {
