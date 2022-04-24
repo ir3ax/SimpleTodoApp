@@ -5,3 +5,9 @@
 .imgHolder{
     filter:drop-shadow(5px 5px 5px rgba(192, 255, 241, 1))
 }
+
+@media (max-width:450px) {
+   .navbarHolderMain{
+       height: 600px;
+   }
+}

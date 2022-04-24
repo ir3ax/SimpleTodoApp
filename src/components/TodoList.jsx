@@ -75,7 +75,7 @@ const TodoList = ({setStatus}) => {
  
 
   return (
-     <div className="flex-1 h-screen p-7 text-2x1 font-semibold text-gray-400">
+     <div className="flex-1 h-screen p-7 text-2x1 font-semibold text-gray-400 xs:h-full">
       <div className="relative mx-auto pt-3 ml-11 text-gray-600 sm:ml-0">
         <input
           className={`w-1/3 h-12 px-5 pr-16 text-sm border-2 rounded-lg transition ease-in-out shadow-md shadow-slate-300 border-gray-300 bg-white focus:outline-none focus:border-light-cyan sm:w-52 lg:w-96`}
@@ -89,7 +89,7 @@ const TodoList = ({setStatus}) => {
       </div>
    
        <TodoForm onSubmit={addTodo} /> 
-       <div className="w-auto h-4/6 mt-10 ml-11 shadow-md shadow-slate-400 overflow-auto bg-light-white sm:ml-0 sm:overflow-auto">
+       <div className="w-auto h-4/6 mt-10 ml-11 shadow-md shadow-slate-400 overflow-auto bg-light-white sm:ml-0 sm:overflow-auto xs:h-96 xs:overflow-auto">
          <Todo search={search} setSearch={setSearch} searchKeyWord={handleChangeSearch} setStatus={setStatus} todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
        </div>
        <ToastContainer className="font-light" />  

@@ -65,7 +65,7 @@ const searchHandler = () => {
 }
          filterHandler()
         searchHandler()
-    },[todos,setStatus,search,filteredTodo,searchKeyWord]);
+    },[todos,setStatus,search,searchKeyWord]);
 
 
 
@@ -86,8 +86,8 @@ const Modal = ({val}) => {
             <div className="relative w-auto my-6 mx-auto max-w-3xl">
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 <div className="p-6 pt-0 text-center">
-                    <svg class="mx-auto mt-4 mb-4 w-14 h-14 text-gray-400 dark:text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    <h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Are you sure you want to delete this task?</h3>
+                    <svg className="mx-auto mt-4 mb-4 w-14 h-14 text-gray-400 dark:text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <h3 className="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Are you sure you want to delete this task?</h3>
                 </div>
                 <div className="flex items-center space-x-2 justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
                   <button
@@ -114,7 +114,7 @@ const Modal = ({val}) => {
   );
 };
 
-  return result.map((val, index) => (
+  return ((setStatus !== null && search === "") ? filteredTodo : todos || (setStatus === null && search !== "") ? result : todos || (setStatus !== null && search !== "") ? result : todos).map((val, index) => (
     <div className={`flex odd:bg-slate-100 even:bg-slate-200 m-auto items-center justify-evenly text-lg sm:flex-col`} key={index}>
          <div className='flex m-auto w-1/4 h-20 items-center text-gray-500 justify-center border-2 border-light-cyan sm:w-full sm:mt-4' key={val.id} onClick={() => completeTodo(val.id)}>
             {val.stext}

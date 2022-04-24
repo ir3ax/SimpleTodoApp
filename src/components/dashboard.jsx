@@ -19,7 +19,7 @@ const statusHandler = (e) => {
 }
 
   return (
-    <div className={`flex animate-slide`}>
+    <div className={`flex animate-slide xs:h-full`}>
       <div
         className={`${
           open ? "w-72" : "w-24"
@@ -37,7 +37,7 @@ const statusHandler = (e) => {
           <img src={Logo} alt="Logo" />
 
           <h1
-            className={`text-white origin-left font-serif text-2xl line-through decoration-dark-green ${
+            className={`xs:hidden text-white origin-left font-serif text-2xl line-through decoration-dark-green ${
               !open && "hidden"
             }`}
           >
@@ -50,7 +50,7 @@ const statusHandler = (e) => {
           className={`flex gap-x-4 p-2 mt-7 text-gray-300 text-lg  items-center  cursor-pointer  hover:bg-light-cyan hover:bg-opacity-50 active:bg-light-cyan rounded`}
         >
           <img src={HomeLogo} alt="" />
-          <span className={`${!open && "hidden"}`}>Home</span>
+          <span className={`xs:hidden ${!open && "hidden"}`}>Home</span>
         </Link>
          <div className="mt-16">
         {Category.map((category, index) => (
@@ -59,7 +59,7 @@ const statusHandler = (e) => {
           
           <button  key={index} className={`sideBarButton flex gap-x-4 p-2 mt-7 w-full text-gray-300 text-m items-center cursor-pointer hover:bg-light-cyan hover:bg-opacity-50 active:bg-light-cyan active:bg-opacity-50 rounded`} onClick={statusHandler} value={category.title}>
             <img src={require(`../images/${category.src}.png`)} alt="" />
-             <label htmlFor="sideBarButton" className={`text-gray-300 text-lg cursor-pointer ${
+             <label htmlFor="sideBarButton" className={`xs:hidden text-gray-300 text-lg cursor-pointer ${
               !open && "hidden"
             }`}>{category.title}</label>
           </button>
