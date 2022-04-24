@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/simpletodoapp/static/css/main.f6a9671e.css",
-    "main.js": "/simpletodoapp/static/js/main.e589ccc4.js",
+    "main.js": "/simpletodoapp/static/js/main.d1a8304f.js",
     "static/media/pencils.jpg": "/simpletodoapp/static/media/pencils.d9d7fae0c596dd592832.jpg",
     "static/media/black_g.png": "/simpletodoapp/static/media/black_g.85e43386649aee438b56.png",
     "static/media/school_card.jpg": "/simpletodoapp/static/media/school_card.47d365c8668fd0104ffd.jpg",
@@ -21,10 +21,10 @@
     "static/media/delete.gif": "/simpletodoapp/static/media/delete.61e43f4c06f9d2b832f5.gif",
     "index.html": "/simpletodoapp/index.html",
     "main.f6a9671e.css.map": "/simpletodoapp/static/css/main.f6a9671e.css.map",
-    "main.e589ccc4.js.map": "/simpletodoapp/static/js/main.e589ccc4.js.map"
+    "main.d1a8304f.js.map": "/simpletodoapp/static/js/main.d1a8304f.js.map"
   },
   "entrypoints": [
     "static/css/main.f6a9671e.css",
-    "static/js/main.e589ccc4.js"
+    "static/js/main.d1a8304f.js"
   ]
 }
