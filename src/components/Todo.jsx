@@ -11,7 +11,7 @@ const Todo = ({todos, completeTodo, removeTodo, updateTodo, setStatus, search, s
      const [edit, setEdit] = useState({
         id:null,
         value:'',
-        svalue:''
+        svalue:'',
     });
 
      const submitUpdate = value => {
@@ -19,8 +19,9 @@ const Todo = ({todos, completeTodo, removeTodo, updateTodo, setStatus, search, s
         setEdit({
             id: null,
             value: '',
-            svalue: ''
+            svalue: '',
         })
+        searchKeyWord = ''
     }
 
  useEffect(() => {

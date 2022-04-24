@@ -19,7 +19,7 @@ const HomePage = () => {
         <div className='navbarHolderMain h-screen bg-light-cyan'>
         <div className="navBarHolder fixed top-0 z-50 w-full h-24 bg-black shadow-very-light-cyan shadow-md xs:h-20">
             <img className={`absolute mt-5 ml-8 xs:mt-2`} src={Logo} alt="" />
-            <Link to="/dashboard" className='absolute top-6 right-8 p-2 border-2 rounded-md cursor-pointer text-md font-medium text-white hover:text-black hover:bg-light-cyan xs:top-4'>Wrote Now!</Link>
+            <Link to="/dashboard" className='absolute top-6 right-8 p-2 border-2 rounded-md cursor-pointer text-md font-medium text-white hover:text-black hover:bg-light-cyan xs:top-4'>Write Now!</Link>
         </div>
         <div className="LettersHolder h-full bg-pencils-img bg-cover space-x-5 flex m-auto items-center justify-center text-white text-2xl shadow-black shadow-lg xs:space-x-2 xs:h-full xs:shadow-md">
             <img className='imgHolder w-52  drop-shadow-xl animate-bounce xl:w-40 lg:w-32 md:w-24 sm:w-20 xs:w-12' src={black_a} alt="A_BLACK"/>
@@ -116,7 +116,7 @@ const HomePage = () => {
                 </div>
 
                 <div className='mt-16 flex items-center justify-center'>
-                <Link to="/dashboard" className='p-4 border-4 rounded-md cursor-pointer text-xl font-medium animate-bounce border-light-cyan text-black hover:text-white hover:bg-light-cyan'>Wrote Now!</Link>
+                <Link to="/dashboard" className='p-4 border-4 rounded-md cursor-pointer text-xl font-medium animate-bounce border-light-cyan text-black hover:text-white hover:bg-light-cyan'>Write Now!</Link>
                 </div>
 
               </div>
